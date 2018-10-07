@@ -10,6 +10,12 @@
     <height>202</height>
    </rect>
   </property>
+  <property name="maximumSize">
+   <size>
+    <width>231</width>
+    <height>202</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>Auto Savior : About</string>
   </property>

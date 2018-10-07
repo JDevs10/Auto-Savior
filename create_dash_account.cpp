@@ -15,7 +15,7 @@ Create_Dash_Account::Create_Dash_Account(QWidget *parent) :
     //![1]  Windown parameters
 
     setWindowTitle(tr("Auto Savior"));      // Title
-    setMaximumSize(5, 15);                  // App size
+    setMaximumSize(371, 372);                  // App size
     //  seMinimumSize(width,height)
 
     //![1]

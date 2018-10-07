@@ -19,7 +19,7 @@ Forgot_dash_password::Forgot_dash_password(QWidget *parent) :
     //![1]  Windown parameters
 
     setWindowTitle(tr("Auto Savior"));      // Title
-    setMaximumSize(5, 15);                  // App size
+    setMaximumSize(355, 239);                  // App size
     //  seMinimumSize(width,height)
 
     //![1]

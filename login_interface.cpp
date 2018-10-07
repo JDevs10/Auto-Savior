@@ -15,7 +15,7 @@ login_interface::login_interface(QWidget *parent) :
     //![1]  Windown parameters
 
     setWindowTitle(tr("Auto Savior"));      // Title
-    setMaximumSize(5, 15);                  // App size
+    setMaximumSize(250, 180);                  // App size
     //  seMinimumSize(width,height)
 
     //![1]

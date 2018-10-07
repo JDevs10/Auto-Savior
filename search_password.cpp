@@ -19,9 +19,13 @@ Search_Password::Search_Password(QWidget *parent) :
         qDebug() << db.lastError().text();
     return;
 
+    //![1]  Windown parameters
+
     setWindowTitle(tr("Auto Savior"));      // Title
-    setMaximumSize(261, 410);
-    //  seMinimumSize(width,height
+    setMaximumSize(250, 410);                  // App size
+    //  seMinimumSize(width,height)
+
+    //![1]
 }
 
 Search_Password::~Search_Password()

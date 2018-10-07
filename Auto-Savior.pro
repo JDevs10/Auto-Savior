@@ -30,7 +30,8 @@ SOURCES += \
     forgot_dash_password.cpp \
     website_lobby.cpp \
     about.cpp \
-    search_password.cpp
+    search_password.cpp \
+    add_websites.cpp
 
 HEADERS += \
         login_interface.h \
@@ -38,7 +39,8 @@ HEADERS += \
     forgot_dash_password.h \
     website_lobby.h \
     about.h \
-    search_password.h
+    search_password.h \
+    add_websites.h
 
 FORMS += \
         login_interface.ui \
@@ -46,7 +48,8 @@ FORMS += \
     forgot_dash_password.ui \
     website_lobby.ui \
     about.ui \
-    search_password.ui
+    search_password.ui \
+    add_websites.ui
 
 RESOURCES += \
     Resource/src.qrc

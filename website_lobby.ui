@@ -10,6 +10,12 @@
     <height>331</height>
    </rect>
   </property>
+  <property name="maximumSize">
+   <size>
+    <width>753</width>
+    <height>331</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>Auto Savior : Lobby</string>
   </property>
@@ -78,7 +84,7 @@
      <x>10</x>
      <y>10</y>
      <width>141</width>
-     <height>311</height>
+     <height>281</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="LeftVue">
@@ -155,6 +161,9 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
         </item>
         <item>
          <widget class="QLabel" name="welcom_email">
+          <property name="styleSheet">
+           <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
           <property name="text">
            <string/>
           </property>
@@ -243,7 +252,7 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="log_out_2">
+       <widget class="QPushButton" name="log_out">
         <property name="styleSheet">
          <string notr="true">color: #0000ff;</string>
         </property>
@@ -263,7 +272,7 @@ font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
   <tabstop>change_web_pwd</tabstop>
   <tabstop>settings</tabstop>
   <tabstop>about</tabstop>
-  <tabstop>log_out_2</tabstop>
+  <tabstop>log_out</tabstop>
   <tabstop>load</tabstop>
   <tabstop>tableView</tabstop>
  </tabstops>
