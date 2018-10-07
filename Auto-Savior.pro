@@ -29,21 +29,24 @@ SOURCES += \
     create_dash_account.cpp \
     forgot_dash_password.cpp \
     website_lobby.cpp \
-    about.cpp
+    about.cpp \
+    search_password.cpp
 
 HEADERS += \
         login_interface.h \
     create_dash_account.h \
     forgot_dash_password.h \
     website_lobby.h \
-    about.h
+    about.h \
+    search_password.h
 
 FORMS += \
         login_interface.ui \
     create_dash_account.ui \
     forgot_dash_password.ui \
     website_lobby.ui \
-    about.ui
+    about.ui \
+    search_password.ui
 
 RESOURCES += \
     Resource/src.qrc

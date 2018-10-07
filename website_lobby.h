@@ -4,6 +4,7 @@
 #include <QDialog>
 #include "login_interface.h"
 #include "about.h"
+#include "search_password.h"
 
 namespace Ui {
 class Website_lobby;
@@ -24,10 +25,13 @@ private slots:
 
     void on_about_clicked();
 
+    void on_search_pwd_clicked();
+
 private:
     Ui::Website_lobby *ui;
     Forgot_dash_password* forDashPwdWIND;
     About* abtWIND;
+    Search_Password* schpwdWIND;
 };
 
 #endif // WEBSITE_LOBBY_H

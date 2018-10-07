@@ -51,8 +51,16 @@ void Website_lobby::on_log_out_2_clicked()
     }
 }
 
+void Website_lobby::on_search_pwd_clicked()
+{
+    schpwdWIND = new Search_Password(this);
+    schpwdWIND->show();
+}
+
 void Website_lobby::on_about_clicked()
 {
     abtWIND = new About(this);
     abtWIND->show();
 }
+
+
