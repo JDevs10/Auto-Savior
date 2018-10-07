@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -25,10 +25,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        login_interface.cpp
+        login_interface.cpp \
+    create_dash_account.cpp
 
 HEADERS += \
-        login_interface.h
+        login_interface.h \
+    create_dash_account.h
 
 FORMS += \
-        login_interface.ui
+        login_interface.ui \
+    create_dash_account.ui
