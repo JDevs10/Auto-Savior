@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>login_interface</string>
+   <string>Auto Savior : Login</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resource/src.qrc">
+    <normaloff>:/pic/Icon.png</normaloff>:/pic/Icon.png</iconset>
   </property>
   <widget class="QWidget" name="centralWidget">
    <property name="autoFillBackground">
@@ -156,6 +160,14 @@
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <tabstops>
+  <tabstop>User_line</tabstop>
+  <tabstop>Pwd_line</tabstop>
+  <tabstop>Login</tabstop>
+  <tabstop>Cancel</tabstop>
+ </tabstops>
+ <resources>
+  <include location="Resource/src.qrc"/>
+ </resources>
  <connections/>
 </ui>

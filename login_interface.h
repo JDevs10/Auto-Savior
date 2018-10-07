@@ -3,8 +3,8 @@
 
 #include <QMainWindow>
 #include "create_dash_account.h"
-//#include "forgot_dash_password.h"
-//#include "website_lobby.h"
+#include "forgot_dash_password.h"
+#include "website_lobby.h"
 
 namespace Ui {
 class login_interface;

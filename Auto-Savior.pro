@@ -26,12 +26,24 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         login_interface.cpp \
-    create_dash_account.cpp
+    create_dash_account.cpp \
+    forgot_dash_password.cpp \
+    website_lobby.cpp \
+    about.cpp
 
 HEADERS += \
         login_interface.h \
-    create_dash_account.h
+    create_dash_account.h \
+    forgot_dash_password.h \
+    website_lobby.h \
+    about.h
 
 FORMS += \
         login_interface.ui \
-    create_dash_account.ui
+    create_dash_account.ui \
+    forgot_dash_password.ui \
+    website_lobby.ui \
+    about.ui
+
+RESOURCES += \
+    Resource/src.qrc

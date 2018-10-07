@@ -39,12 +39,12 @@ void login_interface::on_Cancel_clicked()
     }
 }
 
-//void login_interface::on_Forgot_password_label_linkActivated(const QString &link)
-//{
-//    Forgot_dash_password fdpWIND;
-//    fdpWIND.setModal(this);
-//    fdpWIND.exec();
-//}
+void login_interface::on_Forgot_password_label_linkActivated(const QString &link)
+{
+    Forgot_dash_password fdpWIND;
+    fdpWIND.setModal(this);
+    fdpWIND.exec();
+}
 
 void login_interface::on_creat_account_label_linkActivated(const QString &link)
 {
@@ -82,8 +82,8 @@ void login_interface::on_Login_clicked()
             lineListVerti = line.split("----------------------------------------------------------------------|");
 
 
-            //            dbVertiData = lineListVerti[3];
-            //            dbHorizData = ;
+                        //dbVertiData = lineListVerti[3];
+                        //dbHorizData = ;
         }
         file.close();
         QStringList::const_iterator i;
@@ -132,9 +132,9 @@ void login_interface::on_Login_clicked()
         if(showLaSuite){
 //          how to make userGlobalDB pulic to all files ?
             //qDebug() << userGlobalDB;
-//            Website_lobby wbsl;
-//            wbsl.setModal(this);
-//            wbsl.exec();
+            Website_lobby wbsl;
+            wbsl.setModal(this);
+            wbsl.exec();
         }
 
 

@@ -6,12 +6,16 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>371</width>
+    <height>372</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Auto Savior : Account Creation</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resource/src.qrc">
+    <normaloff>:/pic/Icon.png</normaloff>:/pic/Icon.png</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_4">
    <item>
@@ -28,6 +32,16 @@
     <layout class="QVBoxLayout" name="verticalLayout_3">
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_pic_2">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="Resource/src.qrc">:/pic/registrationIcon.png</pixmap>
+         </property>
+        </widget>
+       </item>
        <item>
         <layout class="QVBoxLayout" name="verticalLayout_2">
          <item>
@@ -137,16 +151,6 @@ font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
        </item>
       </layout>
      </item>
-     <item>
-      <widget class="QLabel" name="label_pic">
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap>:/pic/registrationICON.png</pixmap>
-       </property>
-      </widget>
-     </item>
     </layout>
    </item>
    <item>
@@ -190,6 +194,18 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
    </item>
   </layout>
  </widget>
- <resources/>
+ <tabstops>
+  <tabstop>line_firstName</tabstop>
+  <tabstop>line_lastName</tabstop>
+  <tabstop>line_Username</tabstop>
+  <tabstop>line_pwd</tabstop>
+  <tabstop>line_c_pwd</tabstop>
+  <tabstop>line_email</tabstop>
+  <tabstop>Register</tabstop>
+  <tabstop>Cancel</tabstop>
+ </tabstops>
+ <resources>
+  <include location="Resource/src.qrc"/>
+ </resources>
  <connections/>
 </ui>
