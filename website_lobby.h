@@ -6,6 +6,7 @@
 #include "about.h"
 #include "search_password.h"
 #include "add_websites.h"
+#include "change_password_website.h"
 
 namespace Ui {
 class Website_lobby;
@@ -34,12 +35,15 @@ private slots:
 
     void on_load_clicked();
 
+    void on_change_web_pwd_clicked();
+
 private:
     Ui::Website_lobby *ui;
     Forgot_dash_password* forDashPwdWIND;
     About* abtWIND;
     Search_Password* schpwdWIND;
     Add_Websites* addwWIND;
+    Change_Password_Website* cpwdwWIND;
 };
 
 #endif // WEBSITE_LOBBY_H

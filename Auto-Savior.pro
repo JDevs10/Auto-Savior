@@ -31,7 +31,8 @@ SOURCES += \
     website_lobby.cpp \
     about.cpp \
     search_password.cpp \
-    add_websites.cpp
+    add_websites.cpp \
+    change_password_website.cpp
 
 HEADERS += \
         login_interface.h \
@@ -40,7 +41,8 @@ HEADERS += \
     website_lobby.h \
     about.h \
     search_password.h \
-    add_websites.h
+    add_websites.h \
+    change_password_website.h
 
 FORMS += \
         login_interface.ui \
@@ -49,7 +51,8 @@ FORMS += \
     website_lobby.ui \
     about.ui \
     search_password.ui \
-    add_websites.ui
+    add_websites.ui \
+    change_password_website.ui
 
 RESOURCES += \
     Resource/src.qrc

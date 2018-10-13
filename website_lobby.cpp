@@ -13,6 +13,7 @@ Website_lobby::Website_lobby(QWidget *parent) :
 {
     ui->setupUi(this);
     loadWelcomeTitle();
+    loadingTable();
 }
 
 Website_lobby::~Website_lobby()
@@ -119,4 +120,8 @@ void Website_lobby::on_Add_WebSites_clicked()
     addwWIND->show();
 }
 
-
+void Website_lobby::on_change_web_pwd_clicked()
+{
+    cpwdwWIND = new Change_Password_Website(this);
+    cpwdwWIND->show();
+}
